@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Dr. Farhat Hashmi | Home</title>
+    <meta name="description" content="Learn Quran with Tajweed, Hifz, Nazra & Tafsir. 3-day free trial, certified teachers.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="bg-shape shape-1"></div>
+<div class="bg-shape shape-2"></div>
+<a href="https://wa.me/923001234567?text=Assalamu%20Alaikum!%20I%20want%20Free%20Trial" class="float-wa" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+
+<nav class="navbar">
+    <div class="container nav-container">
+        <div class="logo"><h1>Dr. Farhat Hashmi</h1><p>Online Quran Academy</p></div>
+        <div class="menu-icon" id="menuToggle"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <section id="home">
+        <div class="container hero">
+            <div class="hero-content fade-up">
+                <div class="academy-badge">Dr. Farhat Hashmi</div>
+                <h1>Online Quran Academy</h1>
+                <p class="hero-tagline">Begin Your Sacred Journey</p>
+                <div class="hero-divider"></div>
+                <p class="hero-desc">Learn Quran with Tajweed, Hifz, Nazra & Tafsir under certified scholars. One-on-one live classes, flexible timings worldwide.</p>
+                <div class="hero-buttons">
+                    <a href="admission.html" class="btn-primary">Start 3-Day Free Trial →</a>
+                    <a href="courses.html" class="btn-outline">Explore Courses</a>
+                </div>
+            </div>
+            <div class="hero-icon fade-up delay-1"><i class="fas fa-quran fa-8x"></i></div>
+        </div>
+    </section>
+
+    <section id="coursesPreview">
+        <div class="container">
+            <h2 class="section-title reveal">Our Flagship Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card card-hover reveal"><i class="fas fa-book-quran"></i><h3>Nazra Quran</h3><p>Fluency in reading Quran with proper Makharij.</p></div>
+                <div class="course-card card-hover reveal"><i class="fas fa-microphone-alt"></i><h3>Tajweed Course</h3><p>Master advanced Tajweed rules & Sifaat.</p></div>
+                <div class="course-card card-hover reveal"><i class="fas fa-mosque"></i><h3>Hifz Program</h3><p>Memorize Quran with proven revision techniques.</p></div>
+                <div class="course-card card-hover reveal"><i class="fas fa-gem"></i><h3>Tafsir & Arabic</h3><p>Understand Quranic verses & learn Arabic.</p></div>
+            </div>
+            <div class="text-center" style="text-align: center; margin-top: 20px;"><a href="courses.html" class="btn-outline">View All Courses →</a></div>
+        </div>
+    </section>
+
+    <section id="metrics">
+        <div class="container metrics-container reveal">
+            <div class="metric-card"><i class="fas fa-quran metric-icon"></i><div class="metric-number" data-target="15000">0</div><p>Students Enrolled</p></div>
+            <div class="metric-card"><i class="fas fa-chalkboard-teacher metric-icon"></i><div class="metric-number" data-target="45">0</div><p>Certified Teachers</p></div>
+            <div class="metric-card"><i class="fas fa-globe metric-icon"></i><div class="metric-number" data-target="25">0</div><p>Countries Served</p></div>
+            <div class="metric-card"><i class="fas fa-star metric-icon"></i><div class="metric-number" data-target="12">0</div><p>Years of Excellence</p></div>
+        </div>
+    </section>
+
+    <section id="homeAbout">
+        <div class="container about-wrap reveal" style="margin-bottom: 40px;">
+            <div class="about-text"><h2>About <span>Dr. Farhat Hashmi</span></h2><p>Dr. Farhat Hashmi is a renowned Islamic scholar, famous for her simplified Quran teaching methodology. Her vision <strong>"Quran for Everyone"</strong> has inspired millions worldwide.</p><a href="about.html" class="btn-primary btn-mobile-full">Learn More →</a></div>
+            <div class="about-icon"><i class="fas fa-chalkboard-teacher fa-7x"></i></div>
+        </div>
+    </section>
+</main>
+
+<footer id="contact">
+    <div class="container footer-content">
+        <div class="footer-logo"><h3>Dr. Farhat Hashmi</h3><p>Online Quran Academy</p></div>
+        <div class="footer-links"><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="courses.html">Courses</a></li><li><a href="about.html">About Us</a></li><li><a href="admission.html">Free Trial</a></li></ul></div>
+        <div class="footer-links"><h4>Resources</h4><ul><li><a href="testimonials.html">Success Stories</a></li><li><a href="#">Careers</a></li><li><a href="#">Blog</a></li><li><a href="#">Privacy Policy</a></li></ul></div>
+        <div class="footer-contact"><p><i class="fas fa-phone-alt"></i> +92 300 123 4567</p><p><i class="fab fa-whatsapp"></i> +92 321 987 6543</p><p><i class="fas fa-envelope"></i> admission@farhathashmiacademy.com</p><div class="social-icons"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-youtube"></i></a></div></div>
+    </div>
+    <div class="container copyright"><p>© 2025 · Spreading the light of Quran</p></div>
+</footer>
+
+<script src="script.js"></script>
+<script type="text/javascript">var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/69e3ce72840f7e1c346a8c75/1jmgtss37';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script>
+</body>
+</html>
