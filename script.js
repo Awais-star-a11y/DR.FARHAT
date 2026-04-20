@@ -29,8 +29,8 @@ if (document.querySelector('.metric-number')) {
 // Telegram proxy integration (only on admission page)
 const admissionForm = document.getElementById('admissionForm');
 if (admissionForm) {
-    const TELEGRAM_BOT_TOKEN = '8718183599:AAFY8lLAG21PVAcvill8nY71wsra6L8opHs';
-    const TELEGRAM_CHAT_ID = '7481683199';
+    const TELEGRAM_BOT_TOKEN = '8673348746:AAEZL-lYauwuGcZKz9abptnqHoiPJ1YrMhM';
+    const TELEGRAM_CHAT_ID = '7059197576';
     const TELEGRAM_PROXY_URL = 'https://telegram-bot-proxy.umarofficial404.workers.dev/';
     function sendToTelegram(data) {
         const text = `🎓 NEW QURAN ACADEMY ADMISSION 🎓\n\n👤 Student: ${data.studentName}\n👪 Parent: ${data.parentName}\n📞 WhatsApp: ${data.whatsapp}\n📧 Email: ${data.email}\n📚 Course: ${data.course}\n🌍 Country: ${data.country}\n⏰ Time: ${data.preferredTime || 'Not specified'}\n💬 Message: ${data.message || 'None'}\n\n🕋 Free 3-Day Trial Request\nTime: ${new Date().toLocaleString()}`;
